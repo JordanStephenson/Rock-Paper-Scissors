@@ -142,13 +142,13 @@ div.fadeIn {
   }
   .intro {
     width: 80%;
-    left: 55%;
+    left: 65%;
   }
   .intro h1 {
     font-size: 20px;
   }
   .score {
-    margin-left: 80px;
+    margin-left: 60px;
     padding: 0px 50px;
   }
 
