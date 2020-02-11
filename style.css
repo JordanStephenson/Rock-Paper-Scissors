@@ -9,7 +9,7 @@ section {
   background-color: rgb(39, 41, 68);
   font-family: sans-serif;
 }
- 
+
 .score {
   color: rgb(224, 224, 224);
   height: 20vh;
@@ -61,7 +61,8 @@ section {
   text-align: center;
   font-size: 50px;
 }
-.hands, .options {
+.hands,
+.options {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -140,10 +141,10 @@ div.fadeIn {
     overflow-x: hidden;
   }
   .intro {
-    width: 70%;
-    left: 35%;
+    width: 80%;
+    left: 45%;
   }
-  .intro h1{
+  .intro h1 {
     font-size: 20px;
   }
   .score {
@@ -158,17 +159,16 @@ div.fadeIn {
   .score p {
     font-size: 12px;
     margin-right: 50px;
-
   }
-  .match h2{
+  .match h2 {
     font-size: 26px;
   }
   .hands img {
     height: 100px;
   }
   .match {
-    left: 35%;
-    top: 30%;
+    left: 45%;
+    top: 45%;
   }
   .intro button {
     height: 20%;
