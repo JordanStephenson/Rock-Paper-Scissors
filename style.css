@@ -142,7 +142,7 @@ div.fadeIn {
   }
   .intro {
     width: 80%;
-    left: 100%;
+    margin-left: 50px;
   }
   .intro h1 {
     font-size: 20px;
