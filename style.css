@@ -148,9 +148,7 @@ div.fadeIn {
     font-size: 20px;
   }
   .score {
-    position: absolute;
-    top: 5%;
-    left: 50%;
+    margin-left: 130px;
     padding: 0px 50px;
   }
 
