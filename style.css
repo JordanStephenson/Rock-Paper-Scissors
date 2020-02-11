@@ -148,7 +148,7 @@ div.fadeIn {
     font-size: 20px;
   }
   .score {
-    margin-left: 130px;
+    margin-left: 100px;
     padding: 0px 50px;
   }
 
@@ -164,7 +164,7 @@ div.fadeIn {
     font-size: 26px;
   }
   .hands img {
-    height: 100px;
+    height: 150px;
   }
   .match {
     left: 50%;
@@ -173,10 +173,12 @@ div.fadeIn {
   .intro button {
     height: 20%;
     width: 40%;
+    margin-top: 50px;
   }
   .match button {
+    margin-top: 50px;
     height: 15px;
     width: 25%;
-    font-size: 0.5em;
+    font-size: 0.8em;
   }
 }
