@@ -148,7 +148,9 @@ div.fadeIn {
     font-size: 20px;
   }
   .score {
-    justify-content: inherit;
+    position: absolute;
+    top: 5%;
+    left: 50%;
     padding: 0px 50px;
   }
 
@@ -167,7 +169,7 @@ div.fadeIn {
     height: 100px;
   }
   .match {
-    left: 45%;
+    left: 50%;
     top: 45%;
   }
   .intro button {
