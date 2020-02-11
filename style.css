@@ -39,7 +39,7 @@ section {
 }
 .intro button,
 .match button {
-  width: 150px;
+  width: 20%;
   height: 50px;
   background: none;
   border: none;
@@ -133,5 +133,50 @@ div.fadeIn {
   }
   100% {
     transform: translateY(0px);
+  }
+}
+@media only screen and (max-width: 500px) {
+  body {
+    overflow-x: hidden;
+  }
+  .intro {
+    width: 70%;
+    left: 35%;
+  }
+  .intro h1{
+    font-size: 20px;
+  }
+  .score {
+    justify-content: inherit;
+    padding: 0px 50px;
+  }
+
+  .score h2 {
+    font-size: 15px;
+    margin-right: 50px;
+  }
+  .score p {
+    font-size: 12px;
+    margin-right: 50px;
+
+  }
+  .match h2{
+    font-size: 26px;
+  }
+  .hands img {
+    height: 100px;
+  }
+  .match {
+    left: 35%;
+    top: 30%;
+  }
+  .intro button {
+    height: 20%;
+    width: 40%;
+  }
+  .match button {
+    height: 15px;
+    width: 25%;
+    font-size: 0.5em;
   }
 }
